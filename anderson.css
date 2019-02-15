@@ -1,0 +1,42 @@
+/* Ira fazer com que o html e body ocupem todo o espaço da tela */
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 100%;
+    /* plano de fundo, url diz onde esta o arquivo, no-repeat para não repetir as imagens nos espaços vazios, 
+    center para centralizar e bottom para estender a imagem até o final da página */
+    background: url(background-main.jpg) no-repeat center bottom;
+    /* comando feito para esticar a imagem na tela toda */
+    background-size: cover; 
+}
+
+/* Alterando a cor da fonte do texto na nav */
+a{
+    color: black !important;
+}
+/* Alterando a cor do rover para melhorar a interação com o usuário ao passar o mouse em cima do texto */
+a:hover{
+    color: blue !important;
+}
+
+.intro-img {
+    border-radius: 60%;
+    max-width: 60%;
+    max-height: 60%;
+    border: 5px solid white;
+    margin-top: 7%;
+}
+
+.intro{
+    font-family: 'Nova Flat', cursive;
+    color: rgb(61, 171, 185);
+    text-align: center;
+    margin-top: 0%;
+}
+
+.color-h3{
+    color: rgb(86, 179, 10)
+}

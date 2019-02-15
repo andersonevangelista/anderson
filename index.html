@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Atributo lang é para informar a linguagem da página     -->
+<html lang="pt-br">
+<!-- head é a cabeça do site, configurações iniciais lidas pelo navegador -->
+<head>
+    <!-- UTF-8 Conjunto de caracteres de acentuações especiais -->
+    <meta charset="UTF-8">
+    <!-- Captar o tamanho da tela do dispositivo que estives navegando -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Manter a compatibilidade com o Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Titulo do documento que vai aparecer na aba do navegador -->
+    <title>Engenhando</title>
+    <!-- O atributo link vai conectar o html com a folha de estilo escolhida. 
+    Faz com que o navegador saiba onde encontrar o arquivo de designer da pagina -->
+    <link rel="stylesheet" href="anderson.css">
+    <!-- Comando para chamar o link de referencia do arquivo css do bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+<!-- o código da nav foi adicionada do exemplo adquirido na pagina do bootstrap -->
+<!-- adicionar o codigo fixed-top para manter a nav bar fixa no top. Adicionar o codigo manualmente pois não vem -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Engenhando</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Orçamento</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- target="_blank" é o comando para abrir o link numa nova aba e não na mesma que clicou -->
+                            <a target="_blank" class="nav-link" href="https://andersonevangelista.github.io/me/"><i class="fas fa-address-book"></i> Contato</i></a>
+                        </li>
+                    </ul>
+            </div>
+            </nav>
+    
+    <header class="intro">
+        <div>
+            <img class="intro-img" src="Compass03.jpg" alt="botao_inicial">
+            <h1>Anderson Evangelista</h1>
+            <h3 class="color-h3">Engenheiro de Controle e Automação </h3>
+            <h3>"aspirante à programador"</h3>
+        </div>
+    
+    </header>
+    <!-- links do javascript que vai permitir a execução de funcionalidades como botões, expandir tela, dar zoom ou seja ações.
+         O ultimo elemento dentro do body é o javascrip -->
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
